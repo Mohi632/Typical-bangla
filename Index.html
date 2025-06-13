@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Typical Bangla</title>
+  <style>
+    body {
+      background-color: #4CAF50; /* সবুজ ব্যাকগ্রাউন্ড */
+      font-family: Arial, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 10px;
+    }
+    h1 {
+      margin-bottom: 5px;
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .product {
+      background: #388E3C;
+      border-radius: 8px;
+      padding: 15px;
+      width: 200px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .product h2 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+    }
+    .product p {
+      margin: 5px 0;
+    }
+    .account {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #2E7D32;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .account:hover {
+      background: #1B5E20;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Typical Bangla</h1>
+    <p>বাংলাদেশের জন্য ক্যাশ অন ডেলিভারি সহ ই-কমার্স সাইট</p>
+  </header>
+
+  <div class="account" onclick="alert('অ্যাকাউন্ট ফিচার আসছে শীঘ্রই!')">
+    Account
+  </div>
+
+  <section class="product-list">
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150.png?text=Headphones" alt="Headphones" />
+      <h2>হেডফোন</h2>
+      <p>মূল্য: ৮০০ টাকা</p>
+      <button onclick="alert('ক্যাশ অন ডেলিভারি উপলব্ধ!')">অর্ডার করুন</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150.png?text=Bags" alt="Bags" />
+      <h2>ব্যাগ</h2>
+      <p>মূল্য: ১২০০ টাকা</p>
+      <button onclick="alert('ক্যাশ অন ডেলিভারি উপলব্ধ!')">অর্ডার করুন</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150.png?text=Keychains" alt="Keychains" />
+      <h2>চাবির তোরা</h2>
+      <p>মূল্য: ৩০০ টাকা</p>
+      <button onclick="alert('ক্যাশ অন ডেলিভারি উপলব্ধ!')">অর্ডার করুন</button>
+    </div>
+  </section>
+</body>
+</html>
